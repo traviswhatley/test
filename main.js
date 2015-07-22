@@ -3,4 +3,4 @@ $(document).ready(function() {
 		$('#simple-dialogBox').dialogBox({
 			content: 'dialog content text,image,html file'
 	});
-});
+})
