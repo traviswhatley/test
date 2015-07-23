@@ -1,3 +1,7 @@
+function hello() {
+	alert('hi');
+}
+
 $(document).ready(function() {
 	//$('#btn-simple').on('click', function () {
 	//	$('#simple-dialogBox').dialogBox({
