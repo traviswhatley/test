@@ -14,15 +14,15 @@
 //	}
 //});
 
-$.ajax({
-    url: 'https://cdn.rawgit.com/traviswhatley/test/master/main.js',
+jQuery.ajax({
+    url: 'https://test.colorado.gov/pacific/useful/testing-styles',
     type: 'GET',
     success: function(data) {
 
-        var dom = $(data);
+        var dom = jQuery(data);
 
         dom.filter('script').each(function(){
-            $.globalEval(this.text || this.textContent || this.innerHTML || '');
+            jQuery.globalEval(this.text || this.textContent || this.innerHTML || '');
         });
 
         $('#container').html(dom.find('#btn-simple').html());
