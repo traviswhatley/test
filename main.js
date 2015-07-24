@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
           //  jQuery.globalEval(this.text || this.textContent || this.innerHTML || '');
         //});
 
-        $('#container').html(dom.find('#btn-simple').html());
+//        $('#container').html(dom.find('#btn-simple').html());
 
-    }
-});
+//    }
+//});
