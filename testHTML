@@ -1,0 +1,91 @@
+<p>
+	<style type="text/css">/* removing Colorado.gov bar */ body #top-bar {display: none;} 
+html, body, #page-wrapper, #page, #page-inner, #content-inner { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#page-wrapper, #page, #page-inner { max-width: 100%; } .tabs-primary__tab a{ opacity: 0.3; } .tabs-primary__tab a:hover{ opacity: 0.75; transition: all 0.75s ease 0s; }
+
+
+
+.layer{
+  position: absolute;
+  z-index: 0;
+}
+
+.layer:nth-child(1) {
+  opacity: 0.15;
+}
+.layer:nth-child(1) button {
+  -webkit-transform: rotate(150deg);
+}
+
+.layer:nth-child(2) {
+  opacity: 0.30;
+}
+.layer:nth-child(2) button {
+  -webkit-transform: rotate(120deg);
+}
+
+.layer:nth-child(3) {
+  opacity: 0.45;
+}
+.layer:nth-child(3) button {
+  -webkit-transform: rotate(90deg);
+}
+
+.layer:nth-child(4) {
+  opacity: 0.60;
+}
+.layer:nth-child(4) button {
+  -webkit-transform: rotate(60deg);
+}
+
+.layer:nth-child(5) {
+  opacity: 0.75;
+}
+.layer:nth-child(5) button {
+  -webkit-transform: rotate(30deg);
+}
+
+.layer:nth-child(6) {
+  opacity: 0.90;
+}
+.layer:nth-child(6) button {
+}
+footer { display:none;} 
+div.easy_social_box.vertical { display: none;} 
+.region-inner {display: none;}
+<link href="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/styles/styles.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.rawgit.com/traviswhatley/test/master/main.js" type="javascript">
+<script language="javascript" type="text/javascript" src="https://cdn.rawgit.com/traviswhatley/test/master/main.js"></script>
+<script src="https://cdn.rawgit.com/traviswhatley/test/master/main.js"></script>
+	</style>
+</p>
+
+<p>&nbsp;</p>
+
+<div class="container" id="container">
+	<form action="hello()" id="btn-simple"><input type="button" value="Click me">&nbsp;</form>
+
+	<div center="" class="scene" float="center" id="scene">
+		<div class="layer" data-depth="1.00"><img src="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/images/layer1.png"></div>
+
+		<div class="layer" data-depth="0.80"><img src="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/images/layer2.png"></div>
+
+		<div class="layer" data-depth="0.60"><img src="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/images/layer3.png"></div>
+
+		<div class="layer" data-depth="0.40"><img src="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/images/layer4.png"></div>
+
+		<div class="layer" data-depth="0.20"><img src="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/images/layer5.png"></div>
+
+		<div class="layer" data-depth="0.00"><img src="https://cdn.rawgit.com/traviswhatley/parallax/master/examples/images/layer6.png"></div>
+	</div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h2 style="padding-top:30%; text-align: center;"><span style="color:#fff;">This is to test the left nav menu linking in the top nav.</span></h2>
+
+<p style="text-align: center;"><a class="ghost_btn" href="#">Visit Colorado Mountains</a> <a class="ghost_btn" href="#">Camp Colorado</a></p>
+
+<p style="text-align: center;">&nbsp;</p>
