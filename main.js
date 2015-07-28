@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
 		jQuery('#btn-simple').dialogBox({
 			content: 'dialog content text,image,html file'
 		});
-});
+})
 //});
 //	window.hello = function() {
 //		alert('hi');
