@@ -4,7 +4,7 @@
 
 jQuery(document).ready(function() {
 	jQuery('#btn-simple').on('click', function () {
-		jQuery('#simple-dialogBox').dialogBox({
+		jQuery('#btn-simple').dialogBox({
 			content: 'dialog content text,image,html file'
 		});
 });
